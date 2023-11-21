@@ -23,7 +23,7 @@ while True:
 
         print("\nEmployee Payslip Details")
         print("Name: ", name)
-        print("Hour Rendered: ", hourRendered) 
+        print(f"Hour Rendered: {hourRendered:.2f}") 
 
         print("\nGross Salary: Php", format(grossSalary(rate, hourRendered), '.2f'))
 
